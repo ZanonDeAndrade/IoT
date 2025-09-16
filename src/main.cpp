@@ -3,6 +3,9 @@
 #include <PubSubClient.h>
 
 /* 
+  Arthur Zanon e Hérica
+
+
  * Projeto: Sensor de luz com ESP32
  * Fonte original: esp32io.com
  * Código em domínio público
