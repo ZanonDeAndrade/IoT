@@ -17,8 +17,7 @@ const char* WIFI_SSID     = "AMF-CORP";
 const char* WIFI_PASS     = "@MF$4515";
 const char* MQTT_BROKER   = "test.mosquitto.org";  // IP do Mosquitto
 const uint16_t MQTT_PORT  = 1883;
-const char* MQTT_USER     = "";       // usuário (se necessário)
-const char* MQTT_PASS     = "";       // senha (se necessário)
+
 
 
 // Identidade do dispositivo
