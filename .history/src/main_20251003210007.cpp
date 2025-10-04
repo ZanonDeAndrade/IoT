@@ -10,7 +10,7 @@
 
 // --- Wi-Fi ---
 const char* WIFI_SSID = "AMF-CORP";
-const char* WIFI_PASS = "@MF$4515";
+const char* WIFI_PASS = "SUA_SENHA_WIFI";
 
 // --- Cloudflare Worker (para o Banco de Dados) ---
 const char* WORKER_URL = "https://projeto-g1.beckerherica.workers.dev/insert"; 
