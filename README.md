@@ -60,6 +60,8 @@ O Worker, por sua vez, recebe esses dados e os insere no banco de dados Cloudfla
 **4. Fluxograma da Lógica Operacional**
 
 
+
+
 **5. Conclusão**
 O projeto demonstrou com sucesso a criação de um sistema de IoT funcional e completo, integrando hardware de baixo custo com serviços de nuvem modernos e eficientes.
 A utilização do protocolo MQTT garante o controle e monitoramento em tempo real com baixa latência, enquanto a integração com Cloudflare Workers e D1 proporciona uma maneira de coletar e armazenar dados para análise de padrões.
