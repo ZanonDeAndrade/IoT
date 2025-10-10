@@ -9,11 +9,12 @@
 // ===================================================
 
 // --- Wi-Fi ---
-const char* WIFI_SSID = "AMF-CORP";
-const char* WIFI_PASS = "@MF$4515";
+const char* WIFI_SSID = "Rede_Alencar_2.4";
+const char* WIFI_PASS = "15012173";
 
 // --- Cloudflare Worker (para o Banco de Dados) ---
-const char* WORKER_URL = "https://projeto-g1.beckerherica.workers.dev/insert"; 
+const char* WORKER_URL = "https://projeto-g1.zanondea.workers.dev/insert";
+
 
 // --- MQTT Broker ---
 const char* MQTT_BROKER   = "test.mosquitto.org"; // Broker público para testes
@@ -57,7 +58,7 @@ String t_status  = t_base + "status";      // online/offline (LWT)
 String t_cmd_led = t_base + "led/command";  // Tópico para receber comandos
 
 // Objetos de cliente
-WiFiClient espClient;
+WiFiClient espClient;   
 PubSubClient mqtt(espClient);
 
 // ===================================================
