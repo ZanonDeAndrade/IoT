@@ -9,8 +9,8 @@
 // ===================================================
 
 // --- Wi-Fi ---
-const char* WIFI_SSID = "Rede_Alencar_2.4";
-const char* WIFI_PASS = "15012173";
+const char* WIFI_SSID = "AMF-CORP";
+const char* WIFI_PASS = "@MF$4515";
 
 // --- Cloudflare Worker (para o Banco de Dados) ---
 const char* WORKER_URL = "https://projeto-g1.zanondea.workers.dev/insert";
@@ -29,7 +29,7 @@ const char* DEVICE_ID = "esp32_sala"; // ID único para este dispositivo
 // --- PINOS E AJUSTES ---
 // ===================================================
 #define LDR_PIN   34
-#define PIR_PIN   27
+#define PIR_PIN   2
 #define LED_PIN   21
 #define LDR_THRESHOLD 50 // Limiar para considerar "escuro". Calibre conforme necessário.
 
