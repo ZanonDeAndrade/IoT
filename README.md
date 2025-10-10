@@ -57,8 +57,8 @@ Esta função monta um objeto JSON com os dados: device_id, ldr, movimento e led
 Uma requisição HTTP POST é enviada para a URL do Worker (https://projeto-g1.zanondea.workers.dev/insert).
 O Worker, por sua vez, recebe esses dados e os insere no banco de dados Cloudflare D1, garantindo um registro histórico do comportamento do ambiente.
 
-**4. Fluxograma da Lógica Operacional**
 
+![**4. Fluxograma da Lógica Operacional**]
 
 
 
