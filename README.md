@@ -58,7 +58,7 @@ Uma requisição HTTP POST é enviada para a URL do Worker (https://projeto-g1.z
 O Worker, por sua vez, recebe esses dados e os insere no banco de dados Cloudflare D1, garantindo um registro histórico do comportamento do ambiente.
 
 
-![**4. Fluxograma da Lógica Operacional**]
+![**4. Fluxograma da Lógica Operacional**](https://github.com/ZanonDeAndrade/IoT/blob/main/Sem%20t%C3%ADtulo.jpeg)
 
 
 
